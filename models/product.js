@@ -47,6 +47,10 @@ module.exports = class Product {
     });
   }
 
+  static deleteProduct(id) {
+    
+  }
+
   static fetchAll(cb) {
     getProductsFromFile(cb);
   }
